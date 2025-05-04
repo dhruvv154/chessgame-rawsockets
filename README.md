@@ -3,7 +3,7 @@ Chess Game using Raw Socket Programming with Multiple Client Support
 
 ---
 
-## ♟️ Python Multiplayer Chess Game (LAN)
+##  Python Multiplayer Chess Game (LAN)
 
 This is a **multiplayer chess game** built in Python using the `pygame` and `python-chess` libraries, with support for:
 
@@ -16,7 +16,7 @@ The game features a classic chess UI, move legality enforcement, captured piece 
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 Make sure Python is installed and all dependencies are installed:
 
@@ -31,7 +31,7 @@ git clone https://github.com/your-username/python-chess-lan.git
 cd python-chess-lan
 ```
 
-### 🧑‍🤝‍🧑 Game Modes
+###  Game Modes
 
 #### 🏁 Start the Server (White Player)
 
@@ -51,7 +51,7 @@ python chess.py client <server_ip>
 - Replaces `<server_ip>` with the IP address of the server
 - Plays as **Black**
 
-#### 👁 Join as a Spectator
+####  Join as a Spectator
 
 ```bash
 python chess.py spectator <server_ip>
@@ -61,7 +61,7 @@ python chess.py spectator <server_ip>
 
 ---
 
-## 📡 Networking Details
+##  Networking Details
 
 - Uses **UDP sockets** to send and receive moves and messages
 - Server broadcasts board updates to all connected clients
@@ -69,7 +69,7 @@ python chess.py spectator <server_ip>
 
 ---
 
-## ✅ Features
+##  Features
 
 - Legal move enforcement
 - Captured piece tracking
@@ -79,7 +79,7 @@ python chess.py spectator <server_ip>
 
 ---
 
-## 🛠 Requirements
+##  Requirements
 
 - Python 3.7+
 - `pygame`
