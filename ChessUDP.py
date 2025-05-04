@@ -106,7 +106,7 @@ def draw_board():
             piece = board.piece_at(square)
             if piece:
                 symbol = piece.symbol()
-                filename = f"assets/{symbol}.png" if symbol.isupper() else f"assets/b{symbol}.png"
+                filename = f"{symbol}.png" if symbol.isupper() else f"b{symbol}.png"
                 try:
                     img = pygame.image.load(filename)
                     screen.blit(pygame.transform.scale(img, (SQUARE_SIZE, SQUARE_SIZE)), (c * SQUARE_SIZE, r * SQUARE_SIZE))
