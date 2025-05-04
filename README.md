@@ -33,7 +33,7 @@ cd python-chess-lan
 
 ###  Game Modes
 
-#### 🏁 Start the Server (White Player)
+####  Start the Server (White Player)
 
 ```bash
 python chess.py server
@@ -42,7 +42,7 @@ python chess.py server
 - Runs the server and plays as **White**
 - Accepts connections from a **Black player** and **any number of spectators**
 
-#### ♞ Connect as Black (Client)
+####  Connect as Black (Client)
 
 ```bash
 python chess.py client <server_ip>
